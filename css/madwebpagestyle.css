@@ -1,0 +1,18 @@
+/*selector{
+	property:value;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+body{
+	background-color: #FFE5B4;
+	font-family: "comfortaa";
+}
+
+button{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-radius: 20px;
+}
+.movable-window{
+	background-color: #FFFFFF;
+}
