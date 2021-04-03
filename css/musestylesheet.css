@@ -1,0 +1,164 @@
+/*selector{
+	property: value;
+}*/
+body{
+	background-color: #000000;
+	color: #ffffff;
+	font-family: sans-serif;
+	text-align: center;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+p{
+	font-size: 9px;
+	letter-spacing: 1px;
+}
+img#logo{
+	align-self: left;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+header{
+	background-color:rgb(22,22,22);
+	height: 70px;
+}
+#caption{
+	text-align: right;
+	margin-right: 100px;
+	margin-bottom: 200px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+nav{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	max-width: 800px;
+	overflow: hidden;
+	padding-bottom: 65px;
+}
+li.menu{
+	display: inline;
+	margin: 8px;
+	overflow: hidden;
+	align-items: right;
+}
+video{
+	text-align: center;
+	margin-top: 50px;
+}
+h2{
+	text-align: left
+}
+li{
+	display: inline-block;
+}
+.title{
+	font-size: 60px;
+	margin-left: 45px;
+	margin-top: 100px;
+}
+section.block{
+	width: 400px;
+	height: 460px;
+	background-color: #212121;
+	display: inline-block;
+	margin: 10px;
+	/*border-left-color: gray;
+	border-left-width: 50px;*/
+}
+h5.more{
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 25px;
+}
+h4.more{
+	text-align: right;
+	text-decoration: underline;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+h2#subtitle{
+	color: white;
+	opacity: 100%;
+	text-align: center;
+}
+h2.date{
+	display: inline-grid;
+	font-size: 50px;
+	align-self: left;
+	width: 100px;
+}
+h3.location{
+	display: inline-grid;
+	text-align: left;
+	width: 100px;
+	height: 50px;
+	margin-left: 20px;
+
+}
+h4.event{
+	display: inline-block;
+	text-align: left;
+	width: 100px;
+	margin-left: 50px;
+}
+h4.details{
+	display: inline-block;
+	text-align: left;
+	width: 100px;
+	margin-left: 50px;
+}
+div.square{
+	display: inline;
+	margin: 12px;
+}
+h4#shop{
+	display: inline-block;
+	background-color: gray;
+	width: 250px;
+	height: 30px;
+	padding-top: 18px;
+}
+aside#sign-up{
+	background-image: url(../assets/musesite/bandmembers.jpg);
+	display: block;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 342px;
+	max-width: 900px;
+	/*opacity: 50%;*/
+}
+h2#subtitle{
+	padding-top: 30px;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	opacity: 100%;
+}
+h3#email{
+	display: inline-block;
+	font-size: 18px;
+	width: 300px;
+	height: 30px;
+	background-color: none;
+	border-color: #ffffff;
+	border-width: thick;
+	padding-top: 15px;
+}
+h4#button{
+	display: inline-block;
+	background-color: gray;
+	width: 250px;
+	height: 30px;
+	padding-top: 18px;
+	align-self: center;
+}
+ul#social{
+	margin-top: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
