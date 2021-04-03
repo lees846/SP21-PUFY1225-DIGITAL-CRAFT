@@ -4,101 +4,109 @@
 <head>
 	<meta charset="utf-8">
 	<title>Muse Official Website</title>
+	<link rel="stylesheet" type="text/css" href="../css/musestylesheet.css">
 </head>
 
 <body> 
-		<div id="Site-Banner">
-			<h1>MUSE</h1>
-				<!--Drop down menu-->
-			<label for="drop-down">=</label>
-			<input list="drop-down" name="link" id="link">
-			<datalist id="drop-down">
-				<option value="https://www.muse.mu/tour">TOUR</option>
-				<option value="https://www.muse.mu/news">NEWS</option>
-				<option value="https://www.muse.mu/videos">VIDEOS</option>
-				<option value="https://www.muse.mu/music">MUSIC</option>
-				<option value="https://www.muse.mu/photos">PHOTOS</option>
-				<option value="https://www.muse.mu/subscribe">SUBSCRIBE</option>
-				<option value="https://www.muse.mu/members">MEMBERS</option>
-				<option value="https://www.muse.mu/shop">SHOP</option>
-				<option value="https://www.muse.mu/connect">CONNECT</option>
-			</datalist>
-		</div>
-	<hr>
-		<div id="Video" class="gallery">
+		<header id="Site-Banner">
+			<img src="../assets/musesite/muselogo.png" width="100px" id="logo">
+			<nav>	
+				<ul>
+					<li class="menu"><a href="https://www.muse.mu/tour">TOUR</a></li>
+					<li class="menu"><a href="https://www.muse.mu/news">NEWS</a></li>
+					<li class="menu"><a href="https://www.muse.mu/videos">VIDEOS</a></li>
+					<li class="menu"><a href="https://www.muse.mu/music">MUSIC</a></li>
+					<li class="menu"><a href="https://www.muse.mu/photos">PHOTOS</a></li>
+					<li class="menu"><a href="https://www.muse.mu/subscribe">SUBSCRIBE</a></li>
+					<li class="menu"><a href="https://www.muse.mu/members">MEMBERS</a></li>
+					<li class="menu"><a href="https://www.muse.mu/shop">SHOP</a></li>
+					<li class="menu"><a href="https://www.muse.mu/connect">CONNECT</a></li>
+				</ul>
+			</nav>	
+		</header>
+		<article id="Video" class="gallery">
+			<video width="1000" src="../assets/musesite/musesimulationfilm.mp4" autoplay="../assets/musesite/musesimulationfilm.mp4">
+		</article>
+		<div id="caption">
 			<h3><a href="https://youtu.be/EYdFLiXarHU">SIMULATION THEORY FILM TRAILER</a></h3>
 		</div>
-		<div id="updates" class="gallery">
-			<a href="https://www.muse.mu/news/2019-simulation-theory-world-tour-251426">UPDATES</a>
-		</div>
-		<div>	
-			<h2>NEWS</h2>
-				<div class="block">
+		<section id="updates" class="gallery">
+			<a href="https://www.muse.mu/news/2019-simulation-theory-world-tour-251426"><img src="../assets/musesite/worldtourgallery.jpg" width="800"></a>
+		</section>
+		<section id="block">	
+			<h2 class="title">NEWS</h2>
+				<section class="block">
+					<img id="img" src="../assets/musesite/ilovelive.jpg" width="350px">
 					<p>#ILoveLive Prize Draw</p>
-						<a href="https://www.muse.mu/news/ilovelive-prize-draw-322301">READ MORE</a>
-				</div>
-				<div class="block">
+						<h5 class="more"><a href="https://www.muse.mu/news/ilovelive-prize-draw-322301">READ MORE</a></h5>
+				</section>
+				<section class="block">
+					<img id="img" src="../assets/musesite/iheartradio.jpg" width="350px">
 					<p>iHeartRadio's ALTer EGO</p>
-						<a href="https://www.muse.mu/news/iheartradio-s-alter-ego-322286">READ MORE</a>
-				</div>
-				<div class="block">		
+						<h5 class="more"><a href="https://www.muse.mu/news/iheartradio-s-alter-ego-322286">READ MORE</a></h5>
+				</section>
+				<section class="block">	
+					<img id="img" src="../assets/musesite/merrychristmas.jpg" width="350px">	
 					<p>Merry Christmas!</p>
-						<a href="https://www.muse.mu/news/merry-christmas-322276">READ MORE</a>
-				</div>
-				<div class="block">		
+						<h5 class="more"><a href="https://www.muse.mu/news/merry-christmas-322276">READ MORE</a></h5>
+				</section>
+				<section class="block">	
+					<img id="img" src="../assets/musesite/deluxebox.png" width="350px">	
 					<p>Simulation Theory Film Deluxe Box Sets - Out Now!</p>
-						<a href="https://www.muse.mu/news/simulation-theory-film-deluxe-box-sets-out-now-322281">READ MORE</a>
-				</div>		
-				<h4>MORE NEWS</h4>
-		</div>
-		<div>		
-			<h2>TOUR DATES</h2>
-				<div id="date">
-					<h2>05 JUN 2021</h2>
-						<h3>NICKELSDORF, AUSTRIA</h3>
-						<h4>Nova Rock Festival</h4>
-						<h4><a href="https://www.oeticket.com/artist/nova-rock/">DETAILS</a></h4>
+						<h5 class="more"><a href="https://www.muse.mu/news/simulation-theory-film-deluxe-box-sets-out-now-322281">READ MORE</a></h5>
+				</section>		
+				<h4 class="more"><a href="https://www.muse.mu/news">MORE NEWS</a></h4>
+		</section>
+		<section id="date">		
+			<h2 class="title">TOUR DATES</h2>
+				<div>
+					<h2 class="date">05 JUN 2021</h2>
+						<h3 class="location">NICKELSDORF, AUSTRIA</h3>
+						<h4 class="event">Nova Rock Festival</h4>
+						<h4 class="details"><a href="https://www.oeticket.com/artist/nova-rock/">DETAILS</a></h4>
 					<a href="https://www.oeticket.com/artist/nova-rock/">TICKETS</a>
 				</div>
-				<div id="date">
-					<h2>04 JUL 2021</h2>
-						<h3>BELFORT, FRANCE</h3>
-						<h4>Les Eurockéennes De Belfort</h4>
-						<h4><a href="https://www.muse.mu/tour-date/les-eurock-ennes-de-belfort-belfort-2020-12-01-141500">DETAILS</a></h4>
+				<div>
+					<h2 class="date">04 JUL 2021</h2>
+						<h3 class="location">BELFORT, FRANCE</h3>
+						<h4 class="event">Les Eurockéennes De Belfort</h4>
+						<h4 class="details"><a href="https://www.muse.mu/tour-date/les-eurock-ennes-de-belfort-belfort-2020-12-01-141500">DETAILS</a></h4>
 					<a href="https://www.eurockeennes.fr/">TICKETS</a>
 				</div>
-					<h4>MORE DATES</h4>
-		</div>
+					<h4 class="more"><a href="https://www.muse.mu/tour">MORE DATES</a></h4>
+		</section>
 		<div>		
-			<h2>OFFICIAL STORE</h2>
-				<div id="square">
-					<h4>SIMULATION THEORY SUPER DELUXE CD/VINYL BOXSET</h4>
+			<h2 class="title">OFFICIAL STORE</h2>
+				<div class="square">
+					<a href="http://smarturl.it/Muse.ST.SuperDlx"><img src="../assets/musesite/storeitem1.jpg" width="210px"></a>
 				</div>
-				<div id="square">
-					<h4>SIMULATION THEORY DELUXE CD</h4>
+				<div class="square">
+					<a href="http://smarturl.it/Muse.ST.Dlx.CD"><img src="../assets/musesite/storeitem2.jpg" width="210px"></a>
 				</div>
-				<div id="square">
-					<h4>ALL BLACK CLEAN LOGO T-SHIRT</h4>
+				<div class="square">
+					<a href="http://smarturl.it/Muse.Black.Logo.T"><img src="../assets/musesite/storeitem3.jpg" width="210px"></a>
 				</div>
-				<div id="square">
-					<h4>PEACE KEY LADIES CROP TOP</h4>
+				<div class="square">
+					<a href="http://smarturl.it/Muse.Peace.Crop"><img src="../assets/musesite/storeitem4.jpg" width="210px"></a>
 				</div>
-			<h4><a href="https://usstore.muse.mu/?mu">SHOP THE OFFICIAL STORE<a></h4>
+			<h4 id="shop"><a href="https://usstore.muse.mu/?mu">SHOP THE OFFICIAL STORE<a></h4>
 		</div>
-	<hr>
-		<h2>BE THE FIRST TO KNOW ABOUT THE LATEST MUSE NEWS</h2>
-			<h3>EMAIL ADDRESS</h3>
-			<h4>SIGN UP</h4>
-			<h5>TERMS</h5>
-	<hr>
-	<div id="Social-Media">
-		<h4>facebook</h4>
-		<h4>twitter</h4>
-		<h4>instagram</h4>
-		<h4>youtube</h4>
-		<h4>spotify</h4>
-		<h4>apple music</h4>
-	</div>	
+		<aside id="sign-up">
+			<h2 id="subtitle">BE THE FIRST TO KNOW <br>ABOUT THE LATEST MUSE <br>NEWS</h2>
+				<h3 id="email">EMAIL ADDRESS</h3>
+				<h4 id="button">SIGN UP</h4>
+				<h5><a href="javascript:void(0)">TERMS</a></h5>
+		</aside>		
+	<footer>
+		<ul id="social">
+			<li><a href="https://www.facebook.com/muse"><img src="../assets/musesite/facebooklogo.png" width="50px"></a></li>
+			<li><a href="https://twitter.com/muse"><img src="../assets/musesite/twitterlogo.png" width="53px"></a></li>
+			<li><a href="https://instagram.com/muse"><img src="../assets/musesite/instagramlogo.png" width="55px"></a></li>
+			<li><a href="https://www.youtube.com/muse"><img src="../assets/musesite/youtubelogo.png" width="60px"></a></li>
+			<li><a href="https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"><img src="../assets/musesite/spotifylogo.png" width="60px"></a></li>
+			<li><a href="https://itunes.apple.com/artist/muse/1093360"><img src="../assets/musesite/applelogo.png" width="53px"></a></li>
+		</ul>	
 		<p>© 2021 WARNER MUSIC UK LIMITED. PRIVACY POLICY | TERMS OF USE | COOKIE POLICY |  COOKIES SETTINGS</p>
+	</footer>	
 </body>
 </html>
