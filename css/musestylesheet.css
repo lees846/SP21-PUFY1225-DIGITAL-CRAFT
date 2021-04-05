@@ -66,6 +66,7 @@ section.block{
 	background-color: #212121;
 	display: inline-block;
 	margin: 10px;
+	padding-top: 20px;
 	/*border-left-color: gray;
 	border-left-width: 50px;*/
 }
@@ -122,6 +123,10 @@ h4#shop{
 	height: 30px;
 	padding-top: 18px;
 }
+aside{
+	width: 100%;
+	height: 500px;
+}
 aside#sign-up{
 	background-image: url(../assets/musesite/bandmembers.jpg);
 	display: block;
@@ -130,7 +135,8 @@ aside#sign-up{
 	margin-right: auto;
 	min-height: 342px;
 	max-width: 900px;
-	/*opacity: 50%;*/
+	opacity: 50%;
+	background-repeat: no-repeat;
 }
 h2#subtitle{
 	padding-top: 30px;
