@@ -1,0 +1,105 @@
+/*selector{
+	property: value;
+*/
+/*CSS code for index file*/
+body{
+	/*Light bluish color*/
+	background-color: rgb(134, 149, 159);
+	/*Brown*/
+	color: rgb(61, 46, 39);
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+header{
+	/*Dark Blue*/
+	background-color: rgb(22, 30, 41);
+	padding-bottom: 30px;
+	margin-top: 10px;
+}
+h1{
+	font-size: 36px;
+	padding-top: 20px;
+	background-color: rgb(134, 149, 159);
+	width: 90%;
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+p#header{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(134, 149, 159);
+	width: 90%;
+	display: inline-block;
+	font-size: 12px;
+	letter-spacing: 3px;
+
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+section.flexbox-container#mainpage{
+	background-color: rgb(22, 30, 41);
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+/* Until I work out the html I'll leave this here. 
+	Trying to make a bar along the side with a table of contents for the scrollable "weelky assignments" section
+nav#sidebar{
+	margin-top: 20px
+	margin-right: 80%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 24px;
+	display: flex;
+	flex-direction: row;
+}
+h2#navsidebar{
+	background-color: rgb(134, 149, 159);
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}*/
+nav#weekly{
+	margin-left: 20%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 24px;
+	display: flex;
+	flex-direction: row;
+}
+h2#navweekly{
+	background-color: rgb(134, 149, 159);
+	width: 70%;
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+section.week{
+	background-color: rgb(134, 149, 159);
+	padding: 10px;
+	margin: 10px;
+	width: 70%;
+	display: inline-block;
+	align-items: right;
+}
+h3.homework-title{
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	text-decoration: underline 2px;
+}
+p.week{
+	max-width: 90%;
+	text-align: justify;
+	padding: 5px 20px;
+
+}
+
