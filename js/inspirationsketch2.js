@@ -6,7 +6,7 @@ function draw(){
 	// string
 	strokeWeight(3);
 	stroke('black');
-	line(300, 0, 300, 750);
+	line(300, 0, 300, 680);
 
 	// first bead rectangle
 	fill('gray');
@@ -41,6 +41,13 @@ function draw(){
 	strokeJoin(SQUARE);
 	stroke(100);
 	ellipse(300, 638, 20, 20); 
+
+	// second string
+	stroke('black');
+	line(300, 680, 280, 730);
+	line(300, 680, 320, 730);
+	line(280, 730, 300, 750);
+	line(320, 730, 300, 750);
 
 	// prism circle side
 	strokeWeight(3);
