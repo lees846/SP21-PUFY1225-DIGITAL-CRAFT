@@ -16,6 +16,7 @@
  	// origin of center squares
  		const center= 100;
 
+// I have the frame rate at a kind of relaxing pace
 function setup(){
 	createCanvas(800, 800);
 	frameRate(.5);
